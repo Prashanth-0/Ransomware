@@ -15,6 +15,8 @@ This project provides scripts to encrypt and decrypt files using RSA and AES enc
 
     ```bash
     git clone https://github.com/Prashanth-0/Ransomware.git
+    ```
+    ```
     cd Ransomware
     ```
 
@@ -25,10 +27,12 @@ This project provides scripts to encrypt and decrypt files using RSA and AES enc
 
     ```bash
     git clone https://github.com/Prashanth-0/Ransomware.git
+    ```
+    ```
     cd Ransomware
     ```
 
-2. **Install the required library**:
+3. **Install the required library**:
 
     ```bash
     pip install pycryptodome
@@ -42,5 +46,6 @@ To generate a new pair of RSA keys, run:
 
 ```bash
 python3 generate_keys.py
-
-
+```
+This will create two files:
+`key.pub`and key.`pri`.
