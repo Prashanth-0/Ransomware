@@ -58,7 +58,7 @@ To encrypt all files in the current directory and its subdirectories, run:
 python encrypt.py
 ```
 
-This script will encrypt all files except the script files and the key files, and will create encrypted files with a .enc extension.
+This script will encrypt all files except the script files and the key files, and will create encrypted files with a `.enc` extension.
 
 
 ### Decryption
