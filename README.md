@@ -48,4 +48,27 @@ To generate a new pair of RSA keys, run:
 python3 generate_keys.py
 ```
 This will create two files:
-`key.pub`and key.`pri`.
+`key.pub`and `key.pri`.
+
+### Encryption
+
+To encrypt all files in the current directory and its subdirectories, run:
+
+```
+python encrypt.py
+```
+
+This script will encrypt all files except the script files and the key files, and will create encrypted files with a .enc extension.
+
+
+### Decryption
+
+To decrypt all encrypted files in the current directory and its subdirectories, run:
+
+```
+python decrypt.py
+```
+
+This script will decrypt all files with a `.enc` extension using the `key.pri` file.
+
+
