@@ -71,11 +71,9 @@ python decrypt.py
 
 This script will decrypt all files with a `.enc` extension using the `key.pri` file.
 
-Here's a disclaimer you can add to your GitHub repository:
 
 ---
 
 ### Disclaimer
-
-This software is provided "as is" without any warranties, express or implied. Use it at your own risk. The authors and contributors are not responsible for any damage, data loss, or other issues arising from the use of this software. Ensure you understand the encryption and decryption processes before using these scripts in a production environment. Always back up your data before performing encryption or decryption operations.
+this repository is provided "as is" without any warranties, express or implied. Use it at your own risk. The authors and contributors are not responsible for any damage, data loss, or other issues arising from the use of this software. Ensure you understand the encryption and decryption processes before using these scripts in a production environment. Always back up your data before performing encryption or decryption operations.
 
