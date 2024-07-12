@@ -1,5 +1,8 @@
 # File Encryption and Decryption
 
+![Downloads](https://img.shields.io/pypi/dm/requests)
+
+
 This project provides scripts to encrypt and decrypt files using RSA and AES encryption. The scripts recursively traverse directories, encrypting or decrypting all files except the script files and the key files.
 
 ## Requirements
